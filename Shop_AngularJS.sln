@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop_AngularJS.Common", "Shop_AngularJS.Common\Shop_AngularJS.Common.csproj", "{B9FCBB66-07B1-4A16-9FD9-7B3E9D29B2E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop_AngularJS.Model", "Shop_AngularJS.Model\Shop_AngularJS.Model.csproj", "{B67E4183-D752-40D2-9D6B-DEDF4D0F86ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop_AngularJS.Data", "Shop_AngularJS.Data\Shop_AngularJS.Data.csproj", "{7FD51A14-8FE6-47F6-9284-D46A5AB2A1AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop_AngularJS.Service", "Shop_AngularJS.Service\Shop_AngularJS.Service.csproj", "{F3AEE6C1-CA9C-4824-8B8B-01ABA2252D4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop_AngularJS.UnitTest", "Shop_AngularJS.UnitTest\Shop_AngularJS.UnitTest.csproj", "{0685554E-4DE7-49A3-ADCB-88B8C6224827}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop_AngularJS.Web", "Shop_AngularJS.Web\Shop_AngularJS.Web.csproj", "{62FCA16A-D803-4FE7-89B4-8C3FE5C8ED19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9FCBB66-07B1-4A16-9FD9-7B3E9D29B2E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9FCBB66-07B1-4A16-9FD9-7B3E9D29B2E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9FCBB66-07B1-4A16-9FD9-7B3E9D29B2E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9FCBB66-07B1-4A16-9FD9-7B3E9D29B2E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B67E4183-D752-40D2-9D6B-DEDF4D0F86ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B67E4183-D752-40D2-9D6B-DEDF4D0F86ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B67E4183-D752-40D2-9D6B-DEDF4D0F86ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B67E4183-D752-40D2-9D6B-DEDF4D0F86ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FD51A14-8FE6-47F6-9284-D46A5AB2A1AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FD51A14-8FE6-47F6-9284-D46A5AB2A1AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FD51A14-8FE6-47F6-9284-D46A5AB2A1AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FD51A14-8FE6-47F6-9284-D46A5AB2A1AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3AEE6C1-CA9C-4824-8B8B-01ABA2252D4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3AEE6C1-CA9C-4824-8B8B-01ABA2252D4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3AEE6C1-CA9C-4824-8B8B-01ABA2252D4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3AEE6C1-CA9C-4824-8B8B-01ABA2252D4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0685554E-4DE7-49A3-ADCB-88B8C6224827}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0685554E-4DE7-49A3-ADCB-88B8C6224827}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0685554E-4DE7-49A3-ADCB-88B8C6224827}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0685554E-4DE7-49A3-ADCB-88B8C6224827}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62FCA16A-D803-4FE7-89B4-8C3FE5C8ED19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62FCA16A-D803-4FE7-89B4-8C3FE5C8ED19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62FCA16A-D803-4FE7-89B4-8C3FE5C8ED19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62FCA16A-D803-4FE7-89B4-8C3FE5C8ED19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
