@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Shop_AngularJS.Data.Infrastructure
 { 
-   public abstract class RepositoryBase<T> where T: class
+   public abstract class RepositoryBase<T>:IReponsitory<T> where T: class
     {
         #region Properties
         private Shop_AngularJSDBContext dataContext;
@@ -18,7 +18,7 @@ namespace Shop_AngularJS.Data.Infrastructure
             get;
             private set;
         }
-        private Shop_AngularJSDBContext DbContext
+        public Shop_AngularJSDBContext DbContext
         {
             get { return dataContext ?? (dataContext = DbFactory.Init()); }
         }

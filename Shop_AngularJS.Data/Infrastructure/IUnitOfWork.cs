@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Shop_AngularJS.Data.Infrastructure
 {
-    interface IUnitOfWork
+    public interface IUnitOfWork
     {
+        void Commit();
     }
 }

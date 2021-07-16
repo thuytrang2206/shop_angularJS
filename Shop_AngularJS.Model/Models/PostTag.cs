@@ -11,11 +11,11 @@ namespace Shop_AngularJS.Model.Models
     [Table("PostTags")]
     public class PostTag
     {
-        [Key]
+        [Key, Column(Order = 0)]
         public int PostID { set; get; }
         [Key]
         [MaxLength(50)]
-        [Column(TypeName ="varchar")]
+        [Column(TypeName ="varchar", Order = 1)]
         public string TagID { set; get; }
         [ForeignKey("PostID")]
         public virtual Post Post { set; get; }

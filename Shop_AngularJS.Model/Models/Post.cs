@@ -23,7 +23,7 @@ namespace Shop_AngularJS.Model.Models
         [MaxLength(256)]
         public string Alias { set; get; }
         [Required]
-        public string CategoryID { set; get; }
+        public int CategoryID { set; get; }
         [MaxLength(256)]
         public string Image { set; get; }
         [MaxLength(500)]
@@ -32,7 +32,7 @@ namespace Shop_AngularJS.Model.Models
         public bool? HomeFlag { set; get; }
         public bool? HotFlag { set; get; }
         public int? ViewCount { set; get; }
-        [ForeignKey("CategotyID")]
+        [ForeignKey("CategoryID")]
         public virtual PostCategory PostCategory { set; get; }
     }
 }

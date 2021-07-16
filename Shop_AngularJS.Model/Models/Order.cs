@@ -29,7 +29,6 @@ namespace Shop_AngularJS.Model.Models
         [Required]
         [MaxLength(256)]
         public string CustomerMessage { set; get; }
-        [MaxLength(256)]
         public DateTime CreateDate { set; get; }
         public string CreateBy { set; get; }
         public string PaymentMethod { set; get; }
